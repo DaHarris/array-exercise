@@ -37,7 +37,11 @@ end
 
 
 def sum_of_all_celebrity_name_lengths(celebs)
-
+  crap = 0
+  celebs.each do |x|
+    crap += x.size
+  end
+  return crap
 end
 
 
