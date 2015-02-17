@@ -18,7 +18,11 @@ end
 
 
 def first_three_celebrities_with_each(celebs)
-
+  crap = []
+  (0..2).each do |x|
+    crap[x] = celebs[x]
+  end
+  return crap
 end
 
 
